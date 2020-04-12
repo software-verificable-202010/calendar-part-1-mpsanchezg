@@ -8,5 +8,10 @@ namespace Calendar.Model
 {
 	class CalendarEvent
 	{
+		CalendarDay startingDay;
+		CalendarDay finishDay;
+
+		internal CalendarDay StartingDay { get => startingDay; set => startingDay = value; }
+		internal CalendarDay FinishDay { get => finishDay; set => finishDay = value; }
 	}
 }

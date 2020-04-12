@@ -15,14 +15,13 @@ using System.Windows.Shapes;
 
 namespace Calendar.View
 {
-	/// <summary>
-	/// Lógica de interacción para Calendar.xaml
-	/// </summary>
 	public partial class Calendar : UserControl
 	{
 		public Calendar()
 		{
 			InitializeComponent();
 		}
+
+
 	}
 }

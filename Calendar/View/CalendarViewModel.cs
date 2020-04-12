@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calendar.View
 {
-	class CalendarViewModel
+	public class CalendarViewModel
 	{
 		public CalendarViewModel()
 		{
