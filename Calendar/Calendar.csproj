@@ -55,14 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Model\CalendarDay.cs" />
-    <Compile Include="Model\CalendarTable.cs" />
-    <Compile Include="Model\CalendarEvent.cs" />
-    <Compile Include="Model\CalendarMonth.cs" />
+    <Compile Include="Model\CalendarEventModel.cs" />
+    <Compile Include="Model\Constants.cs" />
     <Compile Include="View\Calendar.xaml.cs">
       <DependentUpon>Calendar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\CalendarViewModel.cs" />
+    <Compile Include="ViewModel\CalendarViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
